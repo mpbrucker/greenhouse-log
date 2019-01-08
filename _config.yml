@@ -17,8 +17,8 @@ title: The Greenhouse
 email: greenhouse@olin.edu
 # description: >- # this means to ignore newlines until "baseurl:"
 #   The Olin Greenhouse facilitates institutional growth while providing a unique learning experience for students.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://greenhouse.olin.build" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/greenhouse-log" # the subpath of your site, e.g. /blog
+url: "https://mpbrucker.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 permalink: /:title
 
