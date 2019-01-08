@@ -47,7 +47,7 @@ var highlightMeshes = {};
             controls.lon = -90;
             controls.lat = -10;
 
-            var woodTexture = new THREE.TextureLoader().load( "/assets/WoodTexture.png" );
+            var woodTexture = new THREE.TextureLoader().load( "/greenhouse-log/assets/WoodTexture.png" );
             woodTexture.wrapS = THREE.RepeatWrapping;
             woodTexture.wrapT = THREE.RepeatWrapping;
             woodTexture.repeat.set( 20, 20 );
@@ -63,7 +63,7 @@ var highlightMeshes = {};
             floor.receiveShadow = true;
             scene.add( floor ); 
 
-            var wallTexture = new THREE.TextureLoader().load( "/assets/WallTexture.jpg" );
+            var wallTexture = new THREE.TextureLoader().load( "/greenhouse-log/assets/WallTexture.jpg" );
             wallTexture.wrapS = THREE.RepeatWrapping;
             wallTexture.wrapT = THREE.RepeatWrapping;
             wallTexture.repeat.set( 200, 200 );
@@ -108,7 +108,7 @@ var highlightMeshes = {};
                 
 
                 var loader = new THREE.OBJLoader( );
-                loader.load( '/assets/tv.obj', function ( tv ) {
+                loader.load( '/greenhouse-log/assets/tv.obj', function ( tv ) {
                     tv.traverse( function ( child ) {
                         if ( child instanceof THREE.Mesh ) {
                             // Mark the mesh that is the TV
